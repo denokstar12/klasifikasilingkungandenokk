@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Login */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  color: #1e3a8a;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #bae6fd;
+}
+
+button {
+  background: #7dd3fc;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #38bdf8;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Main Page */
+#mainPage {
+  background: #ffffff;
+  width: 90%;
+  max-width: 900px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  background: #fca5a5;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.img-card {
+  background: #e0f2fe;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.img-card:hover {
+  transform: scale(1.05);
+}
+
+.img-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #1d4ed8;
+}
